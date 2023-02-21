@@ -126,8 +126,6 @@ function gameLoop(){
             computerScoreboard.textContent = computerscore;
         }
         
-        luck = (Math.random()*100)
-
         if(520 > ball.ballY && ball.ballY > 60){
             if(ball.ballX > game_screen.width / 1.35){
                 if(computer_bar.pos_y + computer_bar.height /2 < ball.ballY + ball.ballSize / 2){
